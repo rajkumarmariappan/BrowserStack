@@ -12,8 +12,7 @@ public class Runner extends BrowserStackConfig {
         home.loadSBIGPage();
         home.choosePolicyType();
         home.enterPolicyDetails();
-        System.out.println("check branching step");
-        System.out.println("check branching step in branch two");
+       
     }
 
 
