@@ -1,0 +1,37 @@
+{
+  "server": "hub-cloud.browserstack.com",  
+    "user": "rajkumar357",
+  "key": "Ew2SsdyiQeeUBpCqpQ4F",
+
+  "capabilities": {
+    "build": "SBIG Cross-Browser Test-Demo",
+    "name": "Online Vehicle Policy Purchase",
+    "browserstack.debug": true,
+    "browserstack.use_w3c": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "Chrome",
+      "browser_version": "89.0"
+    },
+    "firefox": {
+      "browser": "Firefox",
+      "browser_version": "75.0"
+    },
+    "safari": {
+      "browser": "Safari",
+      "browser_version": "12.1"
+    },
+    "edge": {
+      "browser": "Edge",
+      "browser_version": "81"
+    },
+    "ie": {
+      "browser": "IE",
+      "browser_version": "11.0",
+      "browserstack.ie.arch": "x32",
+      "browserstack.ie.driver": "3.141.59"
+    }
+  }
+}

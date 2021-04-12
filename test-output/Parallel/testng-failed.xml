@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Parallel]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="SBIGTestSafari(failed)">
+    <parameter name="environment" value="safari"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="Runner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- Runner -->
+    </classes>
+  </test> <!-- SBIGTestSafari(failed) -->
+  <test thread-count="5" parallel="tests" name="SBIGTestIE(failed)">
+    <parameter name="environment" value="ie"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="Runner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- Runner -->
+    </classes>
+  </test> <!-- SBIGTestIE(failed) -->
+  <test thread-count="5" parallel="tests" name="SBIGTestFirefox(failed)">
+    <parameter name="environment" value="firefox"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="Runner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- Runner -->
+    </classes>
+  </test> <!-- SBIGTestFirefox(failed) -->
+  <test thread-count="5" parallel="tests" name="SBIGTestEdge(failed)">
+    <parameter name="environment" value="edge"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="Runner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- Runner -->
+    </classes>
+  </test> <!-- SBIGTestEdge(failed) -->
+  <test thread-count="5" parallel="tests" name="SBIGTestChrome(failed)">
+    <parameter name="environment" value="chrome"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="Runner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- Runner -->
+    </classes>
+  </test> <!-- SBIGTestChrome(failed) -->
+</suite> <!-- Failed suite [Parallel] -->

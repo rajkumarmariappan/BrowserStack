@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="5" parallel="tests">
+    <test name="SBIGTestChrome">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="chrome"/>
+        <classes>
+            <class name="Runner"/>
+        </classes>
+    </test>
+
+    <test name="SBIGTestFirefox">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="firefox"/>
+        <classes>
+            <class name="Runner"/>
+        </classes>
+    </test>
+
+    <test name="SBIGTestSafari">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="safari"/>
+        <classes>
+            <class name="Runner"/>
+        </classes>
+    </test>
+
+    <test name="SBIGTestEdge">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="edge"/>
+        <classes>
+            <class name="Runner"/>
+        </classes>
+    </test>
+
+    <test name="SBIGTestIE">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="ie"/>
+        <classes>
+            <class name="Runner"/>
+        </classes>
+    </test>
+</suite>

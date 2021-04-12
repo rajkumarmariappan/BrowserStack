@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Single]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SBIGTestChrome(failed)">
+    <parameter name="environment" value="chrome"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="Runner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="homePageTest"/>
+        </methods>
+      </class> <!-- Runner -->
+    </classes>
+  </test> <!-- SBIGTestChrome(failed) -->
+</suite> <!-- Failed suite [Single] -->
