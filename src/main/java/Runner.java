@@ -14,7 +14,8 @@ public class Runner extends BrowserStackConfig {
         home.enterPolicyDetails();
        
         System.out.println("check today");
-        System.out.println("check before merge");
+        System.out.println("check conflict branch");
+        System.out.println("check conflict branch\" defwf");
     }
 
 
