@@ -13,6 +13,7 @@ public class Runner extends BrowserStackConfig {
         home.choosePolicyType();
         home.enterPolicyDetails();
        
+        System.out.println("check today");
     }
 
 
