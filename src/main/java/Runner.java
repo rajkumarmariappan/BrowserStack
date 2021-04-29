@@ -13,9 +13,7 @@ public class Runner extends BrowserStackConfig {
         home.choosePolicyType();
         home.enterPolicyDetails();
        
-        System.out.println("check today");
-        System.out.println("check conflict branch");
-        System.out.println("check conflict branch\" defwf");
+        System.out.println("29 april git check1");
     }
 
 
