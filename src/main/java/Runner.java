@@ -14,6 +14,7 @@ public class Runner extends BrowserStackConfig {
         home.enterPolicyDetails();
        
         System.out.println("29 april git check1");
+        System.out.println("29 april git check2");
     }
 
 
